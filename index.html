@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Untuk Ayunda · Teman hidup</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2ede7;
+            font-family: 'Inter', sans-serif;
+            color: #2c241e;
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.5rem;
+        }
+
+        .frame {
+            max-width: 780px;
+            width: 100%;
+            background: #fefaf5;
+            border-radius: 32px;
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.02);
+            overflow: hidden;
+            border: 1px solid #e9dfd5;
+        }
+
+        .top-header {
+            padding: 2rem 2rem 1rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid #efe3d8;
+        }
+
+        .avatar-icon {
+            font-size: 3rem;
+            background: #f7f0e9;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: inset 0 0 0 1px #ffffff, 0 6px 12px -8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2rem;
+            font-weight: 500;
+            color: #4a3729;
+            letter-spacing: -0.2px;
+        }
+
+        .subhead {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #b2927a;
+            margin-top: 0.5rem;
+            font-weight: 400;
+        }
+
+        .content-inner {
+            padding: 2rem 2rem 1.5rem;
+        }
+
+        .message-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 2rem 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+            border: 1px solid #efe2d7;
+        }
+
+        .greeting {
+            font-size: 1.5rem;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 500;
+            color: #8b6244;
+            margin-bottom: 1.25rem;
+            letter-spacing: -0.2px;
+        }
+
+        .message-card p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: #3d322b;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .signature-line {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px dashed #e6d8ce;
+            font-style: italic;
+            color: #b48b68;
+            font-size: 0.95rem;
+        }
+
+        .footer-note {
+            background: #fcf8f3;
+            padding: 1.2rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #b18868;
+            border-top: 1px solid #eee2d8;
+            letter-spacing: 0.3px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, #f0e4da, #dccbbd, #f0e4da);
+            margin: 1rem 0;
+        }
+
+        /* indikator musik halus di pojok (opsional, tidak mengganggu) */
+        .music-hint {
+            text-align: center;
+            margin-top: 0.5rem;
+            font-size: 0.7rem;
+            color: #c6aa92;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .music-hint i {
+            font-size: 0.65rem;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 550px) {
+            .frame {
+                border-radius: 28px;
+            }
+            .content-inner {
+                padding: 1.5rem;
+            }
+            .message-card {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .greeting {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+    <div class="top-header">
+        <div class="avatar-icon">
+            🌿
+        </div>
+        <h1>untuk Ayunda</h1>
+        <div class="subhead">— simply grateful —</div>
+    </div>
+
+    <div class="content-inner">
+        <!-- pesan utama: classy & dewasa, TANPA tombol musik apapun -->
+        <div class="message-card">
+            <div class="greeting">
+                Hai, Ayunda.
+            </div>
+            <p>HAPPY LEVEL UP MY FAVORITE GIRL <333</p>
+            <p>karna tadi doa doa nya udah, sekarang aku mau ngasih kata kata aja :v</p>
+            <p>sayanggg kamu ini hebat banget... karna setiap aku lagi marah, setiap aku lagi emosii, pasti kamu itu bisa melerai aarah aku.. ntah cara apa yang kamu pake. kamu juga hebat, setiap kai ada masalah kamu selalu ngehadapinnya dengan tenang, ketika kamu di katain ini itu sama cc si gadis aja kamu masi berusha buat tenang walaupun kmau udah emosi banget. aku selaluuu bangga sama kamu karna kamu orangnya tenang<333333</p>
+            <p>dengan bertambahnya umur pasti makin bayak masalah masalah yang kita hadapin. tapi tenang, di hidup kamu masi ada papa, mama, aa, aki, dan aku. kalau kau emang nggaa bisaa ceritaa keee merekaaa, kamuuu bolee cerita kee akuuu, akuuu pasti selalu bantu kau dalam menyelesaikan masalah. walaupun kamuuu udaaa dii kataa katain inii lah ituuu lahh sama cc nya gadis, kamu harus tetep semangat karna masih adaa di sini.</p>
+            <p>soal di hubungan, aku minta tolong sama kamu, kalau ada sikap aku yang kurang enak di kamu, folong omongin secara baik baik, kalau kita ada masalah tolong omongin baik baik... inget "communication is the king and communication is no 1". aku gamau setiap kali kita ada masalah tapi kita malah diem dieman dan malah tambah membara, akuu mauu kitaa sama sama menyelesaikan masalah yang ada di hubungan kita, okey???</p>
+            <p>one more. call me whenever you have a problem, wherever it is, i will definitely come to you and i will definitely hug you🫂🫂🫂. i love you.... always</p>
+            <div class="signature-line">
+                — dari Farel
+            </div>
+        </div>
+
+        <!-- Audio element: HIDDEN total, tanpa kontrol visual. Auto-play & loop -->
+        <!-- GANTI LINK LAGU DISINI : ganti src di bawah dengan file MP3 favorit kamu. 
+             Contoh: src="https://example.com/lagu.mp3" atau "musik/mylove.mp3" -->
+        <audio id="bgAudio" loop preload="auto" style="display: none;">
+            <source src="TULUS - Jatuh Suka (Official Lyric Video).mp3" type="audio/mpeg">
+        </audio>
+        
+        <!-- tiny hint (hanya pesan halus, bukan kontrol) -->
+        <div class="music-hint">
+            <i class="fas fa-headphones"></i>
+            <span>🎵 jatuh suka - TULUS</span>
+        </div>
+
+        <hr>
+    </div>
+
+    <div class="footer-note">
+        buat Ayunda • akuu selalu disini buat kamu
+    </div>
+</div>
+
+<script>
+    // ============================================================
+    // AUTOPLAY MUSIC - LANGSUNG PUTAR SAAT HALAMAN TERBUKA
+    // TANPA TOMBOL APAPUN. SEMUA KONTROL DIHAPUS.
+    // ============================================================
+    const audio = document.getElementById('bgAudio');
+
+    // Fungsi untuk mengecek apakah link lagu sudah diisi dengan benar (bukan placeholder kosong)
+    function hasValidAudioSrc() {
+        const sources = audio.getElementsByTagName('source');
+        if (sources.length > 0) {
+            const srcAttr = sources[0].getAttribute('src');
+            // Jika src sudah diisi dan bukan string placeholder default "Jaz - Teman Bahagia (Official Audio) - JAZ.mp3"
+            // biar fleksibel, kita cek apakah dia mengandung .mp3 atau .m4a atau .ogg dll
+            if (srcAttr && srcAttr.trim() !== "") {
+                // Jika masih sama dengan placeholder asli (contoh dari template awal) beri info ganti
+                if (srcAttr === "Jaz - Teman Bahagia (Official Audio) - JAZ.mp3") {
+                    return false; // masih placeholder, kasih notifikasi untuk ganti
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Notifikasi halus yang tidak mengganggu (tapi biar user tahu kalau lagu belum diganti)
+    function showGentleNotification(msg, isSoftWarning = true) {
+        const notif = document.createElement('div');
+        notif.innerText = msg;
+        notif.style.position = 'fixed';
+        notif.style.bottom = '20px';
+        notif.style.left = '50%';
+        notif.style.transform = 'translateX(-50%)';
+        notif.style.backgroundColor = isSoftWarning ? '#c29a6b' : '#4a3729';
+        notif.style.color = '#fff8f0';
+        notif.style.padding = '10px 22px';
+        notif.style.borderRadius = '50px';
+        notif.style.fontSize = '0.8rem';
+        notif.style.fontWeight = '500';
+        notif.style.zIndex = '1000';
+        notif.style.fontFamily = 'Inter, sans-serif';
+        notif.style.boxShadow = '0 8px 20px rgba(0,0,0,0.1)';
+        notif.style.backdropFilter = 'blur(4px)';
+        notif.style.backgroundColor = '#7c5a42';
+        notif.style.border = '1px solid #e2c7b0';
+        document.body.appendChild(notif);
+        setTimeout(() => {
+            notif.style.transition = 'opacity 0.3s';
+            notif.style.opacity = '0';
+            setTimeout(() => notif.remove(), 350);
+        }, 3000);
+    }
+
+    // Fungsi utama untuk mencoba autoplay
+    let autoplayAttemptDone = false;
+    let interactionListenerAttached = false;
+
+    function attemptAutoPlay() {
+        if (!hasValidAudioSrc()) {
+            // Kasih tahu user buat ganti link lagu, tapi tetep jalankan fallback jika nanti diganti
+            showGentleNotification("🎵 Ganti link lagu: edit src di <audio> dengan file MP3 kesukaanmu", true);
+            return Promise.reject("NO_VALID_SOURCE");
+        }
+        
+        return audio.play().then(() => {
+            console.log("✅ Musik langsung berjalan (autoplay sukses)");
+            autoplayAttemptDone = true;
+            return true;
+        }).catch(err => {
+            console.warn("Autoplay gagal karena kebijakan browser:", err);
+            // Jika gagal karena butuh interaksi user (NotAllowedError), kita pasang listener satu kali
+            if (err.name === "NotAllowedError" && !interactionListenerAttached) {
+                interactionListenerAttached = true;
+                // Tampilkan notifikasi halus bahwa cukup sentuh layar untuk memulai musik (tapi tanpa tombol)
+                showGentleNotification("✨ Sentuh di mana saja untuk memulai musik", false);
+                
+                // Pasang event satu kali: sentuh/klik di dokumen -> mulai musik otomatis
+                const startOnInteraction = function() {
+                    audio.play().then(() => {
+                        console.log("Musik mulai setelah interaksi user");
+                        // setelah berhasil, hapus listener
+                        document.removeEventListener('click', startOnInteraction);
+                        document.removeEventListener('touchstart', startOnInteraction);
+                        document.removeEventListener('keydown', startOnInteraction);
+                    }).catch(e => {
+                        console.log("Tetap gagal main:", e);
+                        // Jika masih gagal karena source error
+                        if (!hasValidAudioSrc()) {
+                            showGentleNotification("🎵 Ganti dulu link lagu dengan file MP3 yang valid", true);
+                        }
+                    });
+                };
+                document.addEventListener('click', startOnInteraction);
+                document.addEventListener('touchstart', startOnInteraction);
+                document.addEventListener('keydown', startOnInteraction);
+            } else if (err.message && err.message.includes("Failed to load because no supported source")) {
+                showGentleNotification("⚠️ File lagu tidak ditemukan. Ganti src dengan link MP3 yang benar.", true);
+            }
+            return false;
+        });
+    }
+
+    // Saat halaman benar-benar selesai dimuat, coba putar audio otomatis
+    window.addEventListener('load', () => {
+        // Validasi tambahan: jika src masih placeholder asli, beri tahu user
+        const sources = audio.getElementsByTagName('source');
+        if (sources.length > 0) {
+            let currentSrc = sources[0].getAttribute('src');
+            if (currentSrc === "Jaz - Teman Bahagia (Official Audio) - JAZ.mp3" || currentSrc === "" || !currentSrc) {
+                showGentleNotification("🎵 Ganti lagu: ubah 'src' di tag audio dengan file MP3 favoritmu", true);
+            }
+        }
+        // Jalankan autoplay
+        attemptAutoPlay().catch(() => {});
+    });
+
+    // Event handler error jika audio gagal load karena file rusak / link mati
+    audio.addEventListener('error', (e) => {
+        console.error("Audio error:", e);
+        let errorMsg = "Gagal memuat lagu. Pastikan file MP3 tersedia dan linknya benar.";
+        if (audio.error && audio.error.code === 4) {
+            errorMsg = "Format audio tidak didukung atau file tidak ditemukan. Ganti link MP3 yang valid.";
+        } else if (audio.error && audio.error.code === 3) {
+            errorMsg = "Gagal decode audio, coba ganti file MP3 lain.";
+        }
+        showGentleNotification(errorMsg, true);
+    });
+
+    // Untuk memastikan ketika lagu loop tetap berjalan dengan baik (tidak ada intervensi)
+    audio.addEventListener('ended', () => {
+        if (audio.loop) {
+            audio.play().catch(e => console.log("loop play err", e));
+        }
+    });
+    
+    // Opsional: jika halaman di-visibility change (tab tidak aktif), tidak masalah, biarkan berjalan.
+    // Tidak ada tombol pause/play sama sekali — sesuai permintaan: play lagu di hapus, gw pengen otomatis aja
+    
+    console.log("🎶 Website untuk Linda - Musik berjalan otomatis tanpa kontrol (pure autoplay)");
+</script>
+</body>
+</html>
